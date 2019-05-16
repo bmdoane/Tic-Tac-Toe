@@ -1,0 +1,164 @@
+body {
+  width: 100%;
+  background-color: #d22f32;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-areas:
+    "columnA columnB columnC";
+}
+
+.item-A {
+  grid-area: columnA;
+}
+.item-B {
+  grid-area: columnB;
+}
+.item-C {
+  grid-area:  columnC;
+}
+
+.container1 {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.banner {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.header {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  line-height: 50px;
+  padding: 10px 0;
+  color: #ffffff;
+  text-shadow: #000000 2px 5px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine";
+}
+
+.item-one {
+  grid-area: one;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  color:#000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-two {
+  grid-area: two;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  color:#000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-three {
+  grid-area: three;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-four {
+  grid-area: four;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-five {
+  grid-area: five;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-six {
+  grid-area: six;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-seven {
+  grid-area: seven;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-eight {
+  grid-area: eight;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.item-nine {
+  grid-area: nine;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.footer {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
+}
